@@ -332,6 +332,16 @@ input[name='q']::placeholder {
     }
 }
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
 /* Social media handles */
  .s-m {
      text-align: center;
@@ -362,6 +372,7 @@ input[name='q']::placeholder {
  .s-m a:hover > i{
      transform: scale(1.6) rotate(25deg);
 }
+
 /* Media queries used to enhance responsiveness and make title and about info and entries accordion adapt better to different screen sizes */
  @media only screen and (min-width: 1000px) {
      .title{
