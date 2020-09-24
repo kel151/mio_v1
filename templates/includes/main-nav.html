@@ -4,7 +4,7 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Collection
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu border-0" aria-labelledby="collection-link">
                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">Full Collection</a>
@@ -15,19 +15,19 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clothing
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Shirts</a>
-                <a href="" class="dropdown-item">Trousers</a>
-                <a href="" class="dropdown-item">Shoes & Trainers</a>
-                <a href="" class="dropdown-item">Jackets & Coats</a>
-                <a href="" class="dropdown-item">Hats & Caps</a>
-                <a href="" class="dropdown-item">Face Masks</a>
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
+                <a href="{% url 'products' %}?category=trousers" class="dropdown-item">Trousers</a>
+                <a href="{% url 'products' %}?category=shoesandtrainers" class="dropdown-item">Shoes & Trainers</a>
+                <a href="{% url 'products' %}?category=jacketsandcoats" class="dropdown-item">Jackets & Coats</a>
+                <a href="{% url 'products' %}?category=hatsandcaps" class="dropdown-item">Hats & Caps</a>
+                <a href="{% url 'products' %}?category=facemasks" class="dropdown-item">Face Masks</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                What's In Style
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="new_in-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                New In
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
             </div>
