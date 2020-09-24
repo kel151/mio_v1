@@ -269,6 +269,18 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
