@@ -1,37 +1,37 @@
 {% extends "base.html" %}
 {% load static %}
-
+<!-- Header -->
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container header-container">
+   <div class="row">
+      <div class="col"></div>
+   </div>
+</div>
 {% endblock %}
-
+<!-- Homepage image upon which first letters of adjectives ares coloured to spell out site name -->
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    <p class="lettercolor">Minimal</p>
-                    <p class="lettercolor">Intentional</p>
-                    <p class="lettercolor">Original</p>
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">View Our Collection</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-    <!-- Social media handles in footer -->
-         <div class="s-m">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
-    </footer>
+<div class="container h-100">
+   <div class="row h-100">
+      <div class="col-7 col-md-6 my-auto">
+         <h1 class="display-4 logo-font text-black">
+            <p class="lettercolor">Minimal</p>
+            <p class="lettercolor">Intentional</p>
+            <p class="lettercolor">Original</p>
+         </h1>
+         <div class="my-5">
+            <h4>
+               <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">View Our Collection</a>
+            </h4>
          </div>
+      </div>
+   </div>
+</div>
+<footer>
+   <!-- Social media handles in footer -->
+   <div class="s-m">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+</footer>
+</div>
 {% endblock %}

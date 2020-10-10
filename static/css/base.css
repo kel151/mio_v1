@@ -293,7 +293,7 @@ input[name='q']::placeholder {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Make navbar more responsive for mobile by adding more top padding */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
@@ -333,32 +333,4 @@ input[name='q']::placeholder {
 }
  .s-m a:hover > i{
      transform: scale(1.6) rotate(25deg);
-}
-
-/* Media queries used to enhance responsiveness and make title and about info and entries accordion adapt better to different screen sizes */
- @media only screen and (min-width: 1000px) {
-     .title{
-         width: 30% 
-    }
-}
- @media only screen and (min-width: 1000px) {
-     .about{
-         width: 50% 
-    }
-}
- @media only screen and (max-width: 480px) {
-     .card{
-         width: 90% 
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
 }

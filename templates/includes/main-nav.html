@@ -1,5 +1,6 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <!-- Collection part of navbar, from which user can view the full colelction or search the full collection by a certain criteria -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Collection
@@ -11,7 +12,7 @@
                 <a href="{% url 'products' %}" class="dropdown-item">Full Collection</a>
             </div>
         </li>
-
+        <!-- Clothing part of navbar, from which user can select different articles of clothing to view -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clothing
@@ -24,7 +25,7 @@
                 <a href="{% url 'products' %}?category=facemasks" class="dropdown-item">Face Masks</a>
             </div>
         </li>
-
+        <!-- Footwear part of navbar, from which user can select to view either shoes or trainers-->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="new_in-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Footwear
