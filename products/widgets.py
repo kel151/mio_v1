@@ -1,5 +1,6 @@
 from django.forms.widgets import ClearableFileInput
-from django.utils.translation import gettext_lazy as _ # using "as_" as alias so can call gettext_lazy() using ()
+from django.utils.translation import gettext_lazy as _ 
+# using "as_" as alias so can call gettext_lazy() using ()
 
 
 class CustomClearableFileInput(ClearableFileInput):
