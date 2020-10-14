@@ -294,7 +294,8 @@ You will also need to create account with:
 * [Stripe](https://stripe.com/gb)
 * [AWS](https://aws.amazon.com/) for the [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html).
 * An email account of your choice, I used [Gmail](https://mail.google.com/).
-### Directions
+
+### Instructions
 1. You can clone this repository directly into you editor by pasting the following command into the terminal: https://github.com/kel151/mio_v1.
 2. Or you can save a copy of this directory by clicking the green button " Clone or download" then "Download Zip" and after that extract the Zip file to your folder, change the directory to the directory file location you just created.
 3. For this project, I stored the Stripe secret key in both Heroku and Gitpod settings, so as to bale to still use them for development and production. 
