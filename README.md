@@ -92,7 +92,7 @@ be saved.</p>
     <li>Registration page</li>
 </ul> 
 
-[Here](wireframes) is a list of the wireframes I developed during the inital mock-up. They are quite self-explanatory and rudimentary, but they didn't need to be overly compelx. 
+[Here](static/wireframes) is a list of the wireframes I developed during the inital mock-up. They are quite self-explanatory and rudimentary, but they didn't need to be overly compelx. 
 They merely needed to serve as a base for me to extrapolate upon, so you may observe some  minor deviations in the final project.
 
 ### Surface
