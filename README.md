@@ -265,10 +265,18 @@ adding bits of personal flair.
 
 
 ### Code Validation
-* For code validation, I used W3C and PEP8. No major issues were encountered during this of testing.
+<p>For code validation, I used W3C and PEP8. No major issues were encountered during this of testing.</p>
 
 ### Defensive Design
-* Warning messages are triggered if the user enters incorrect or incompatible usernames, passwords, emails, etc.
+<p>Warning messages are triggered if the user enters incorrect or incompatible usernames, passwords, emails, etc.</p>
+
+## Bugs & Issues of Note 
+<p>I did encounter any serious bugs during devlopment. However, there were a few "line too long" errors in the code. I attempted
+to amend them, but ended up breaking the site in the process. Due to limitied time, I opted to leave them as is due to the fact that
+they do not impact the fucntionality of the site.</p>
+<p>Also, one of the individuals that helped my test the project reported that it took quite some time for his confirmation email
+to come through after he placed his order. He tried it a second time and the email came through almost immediately. But it is worth noting
+that it took quite some time for it to reach him the first time. </p>
 
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
