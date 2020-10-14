@@ -17,7 +17,7 @@ specifically to minimalist men's wear with a modern and cool twist.
  A live demo can be found [here](https://m-i-o.herokuapp.com/)
  
  Here is the responsiveness preview in gif form. You should see a short clip of me testing responsiveness.
- 
+
  ![Responsive View](static/responsive_view/responsiveview.gif)
 
 ## UX
@@ -283,19 +283,19 @@ that it took quite some time for it to reach him the first time. </p>
 The project is stored on **Github** and hosted on **Heroku**
 #### Local Deployment
  To run this project, the following tools have to be installed:
-* An IDE of your choice (I used [Gitpod](https://www.gitpod.io/) for creating this project)
+* An IDE of your choice (I used [Gitpod](https://www.gitpod.io/) for creating this project).
 * [Git](https://git-scm.com/)
 * [Pip](https://pip.pypa.io/en/stable/)
 * [Python3](https://www.w3schools.com/python/default.asp) It comes pre-installed with Mac.
 
 You will also need to create account with:
 * [Stripe](https://stripe.com/gb)
-* [AWS](https://aws.amazon.com/) for the [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html)
-* An email account of your choice. I used [Gmail](https://mail.google.com/)
+* [AWS](https://aws.amazon.com/) for the [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html).
+* An email account of your choice, I used [Gmail](https://mail.google.com/).
 ### Directions
-1. You can clone this repository directly into you editor by pasting the following command into the terminal: https://github.com/kel151/mio_v1
+1. You can clone this repository directly into you editor by pasting the following command into the terminal: https://github.com/kel151/mio_v1.
 2. Or you can save a copy of this directory by clicking the green button " Clone or download" then "Download Zip" and after that extract the Zip file to your folder, change the directory to the directory file location you just created.
-3. For this project i stored all  Stripe secret key in both Heroku setting and Gitpod setting. That way i could still use them for development and production. 
+3. For this project, I stored the Stripe secret key in both Heroku and Gitpod settings, so as to bale to still use them for development and production. 
 
 In `settings.py` you can set your variables like in the example below
 ```
@@ -323,11 +323,11 @@ python3 manage.py migrate
 python3 manage.py loaddata <fixture name>
 ```
 6. Create a superuser, it will alow you to have access to the admin panel.
-you need a username, an email, a password. Note the password won't display in the terminal but will be registered.
+You'll need a username, an email, and a password. Note that the password won't display in the terminal but will be registered.
 ```
 python3 manage.py createsuperuser
 ```
-7. You can now run the the application using the following command in the terminal:
+7. You can now run the application using the following command in the terminal:
 ```
 python3 manage.py runserver
 ```
@@ -335,7 +335,7 @@ python3 manage.py runserver
 
 #### Heroku Deployment
 In order for Heroku to work properly, the local deployment steps are required.
-You will also need to have installed  `gunicorn`, `dj-database-url` and `psycopg`. All of those are already in the project requirements.txt, but for future project they are essentials for Heroku to function properly. 
+You will also need to have installed  `gunicorn`, `dj-database-url` and `psycopg`. These are already in the project's requirements.txt file, but for future projects they are essentials for Heroku to function properly. 
 
 1. Create a `requirements.txt ` file, which will contains the list of dependencies, using the following command in the terminal:
 ```
@@ -345,7 +345,7 @@ pip3 freeze > requirements.txt
 ```
 web: gunicorn whisky_shop.wsgi:application
 ```
-3. On [Heroku](https://heroku.com/) website you can now create your **new app**, assign a unique name(try to use a name as close as possible to the project name for consistency), choose the region the closest to you and click **Create app**.
+3. On [Heroku](https://heroku.com/) website you can now create your **new app**, assign a unique name (try to use a name as close as possible to the project name for consistency), choose the region the closest to you and click **Create app**.
 4. Go to **Resources** tab in Heroku, then in the **Add-ons** search bar look for **Heroku Postgres**, select **Hobby Dev — Free** and click **Provision*** button to add it to your project. (This is where  `dj-database-url` and `Psycopg` are required.)
 5. In the Heroku **settings** click on `Reveal Config Vars` and set the following variables.
 
@@ -369,7 +369,7 @@ DATABASES = {
         'default': dj_database_url.parse("<your Postrgres database URL here>")  
     }
 ```
-This is just a temporary set up that allows to make all the migrations required for our data in our DB to be transfer to Heroku **POstgres**. You shouldn't commit and push at this stage for security reasons.
+This is just a temporary set up that allows us to make all of the migrations required for our data in our DB to be transfer to Heroku **POstgres**. You shouldn't commit and push at this stage for security reasons.
 
 7. Here you can now follow the exact steps, 4, 5 and 6 as explained in local deployment.
 
@@ -382,8 +382,8 @@ ALLOWED_HOSTS = ['your heroku app name here', 'localhost']
 10. You can now connect Heroku to Github to automatically deploy each time you push to Github.
 In Heroku **Dashboards** select 
 * Deploy -> Deployment method -> Github
-* link your Github repo name to Heroku
-* Click **Enable automatic Deployment**
+* Link your Github repo name to Heroku
+* Click **Enable Automatic Deployment**
 * Now you you run `git push` in the terminal, it will push to Github and Heroku.
 11. After your app has been successfully deployed you can view you project by clicking on **open app**
 
