@@ -113,7 +113,7 @@ adding bits of personal flair.
 
 ### Features
 ## Features Implemented
-# Website-Wide Features (features on all pages):
+#### Website-Wide Features (features on all pages):
 <ul>
   <li>A fixed header and navbar that stays at the top of the screen no matter how far down the user
   scrolls. This ensures that they can always access the navbar without having to scroll up.</li>
@@ -126,13 +126,13 @@ adding bits of personal flair.
   their bag.</li>
 </ul>
 
-# Homepage Features:
+#### Homepage Features:
 <ul>
   <li>The homepage contains a link to the full collection of clothing.</li>
   <li>The footer contains social media handles which can direct the user to the relevant social media pages.</li>
 </ul>
 
-# Collections Page Features (features on the page that displays all available items):
+#### Collections Page Features (features on the page that displays all available items):
 <ul>
   <li>On the right, above the available items, the user can sort through and organize them price (low to hight or vice versa),
   by category (A-Z or vice versa), by rating (low to high or vice versa) or by name (A-Z or vice versa).</li>
@@ -147,14 +147,14 @@ adding bits of personal flair.
   so that they don't need to scroll.</li>
 </ul>
 
-# Shopping Bag Features:
+#### Shopping Bag Features:
 <ul>
   <li>The user can see a full summary of their order.</li>
   <li>They can choose to increase or decrease the number of the item, or remove it entirely.</li>
   <li>From here, the user can navigate to complete their order or return back to view items.</li>
 </ul>
 
-# Checkout Features:
+#### Checkout Features:
 <ul>
   <li>Here, the user can add and augment their delivery and payment details.</li>
   <li>A full summary of their order is displayed here, along with the grand total.</li>
@@ -172,12 +172,6 @@ adding bits of personal flair.
   <li>A "bookmarking" feature that allows the user to mark items they're interested in, but not willing or able 
   to purchase at that particular moment. A list of their bookmarked items would be stored in their profile.<li>
 </ul>
-
-### Features left to implement
-<ul>
-  <li>I would like to develop a  better way to display my projects. As it is now, it isn't so bad because there aren't many to show. But, in the future, I will need to come up with a more econonic use of space in that section.</li>
-  <li>I would like to add an education sections to display that information more clearly and give it its own section. As it is now, it's mentioned in the About section, but I feel it would stand out more if it were given its own place.</li>
-  <li>I would like to improve the site's overall look by finding a more uniservsally suitable colour-scheme, because it became clear in the latter part of my testing phase that the pink I had chosen can appear very harsh for some people. An example of this is provided further below in the testing section of this readme. 
 
 ## Technologies Used
 <ul>
