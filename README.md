@@ -16,7 +16,7 @@ specifically to minimalist men's wear with a modern and cool twist.
 ## Demo 
  A live demo can be found [here](https://m-i-o.herokuapp.com/)
  
- Here is the responsiveness preview:
+ Here is the responsiveness preview in gif form. You should see a short clip of me testing responsiveness.
  ![Responsive View](static/responsive_view/responsiveview.gif)
 
 ## UX
@@ -50,10 +50,23 @@ would be looking for an online clothing store that primarly stocks men's wear th
 stores in order to find numerous minimalistic and fashionable pieces, especially for men. But typically speaking, there really aren't many
 places that one can go to find a wide selection of minimalist men's wear. That is the issues I'm hoping to address with this project,
 and that is the gap in the market I'm hoping to capitalize upon.</p>
-<p>Due to time cont</p>
+<p>Due to time constraints, I aimed to build the MVP (Minimum Viable Product). This basically means that 
+the project will contain the essential features that allow it to function. There are other features
+that I would like to include, but I will not have the time, skill set, and resources to do so.</p>
 
 ### Scope Plane
-<p><i></i></p>
+<p><i>What features, based upon the information from the strategy plane, do I want to include in this design?</i></p>
+<p>In order to achieve the project aims discussed above I plan to ensure the site's visuals align with the overarching theme 
+of minimalism. I want to include a navbar from which the user can navigate to specific sections of the store i.e. viewing
+the full collection or just certain types of clothing like hats, jackets, etc. I plan to ensure the user's
+journey is easier and more intuitive by enabling them to filter pieces by price, category, rating, etc. I plan to enable the user
+to create an account so that they can view their order history and edit their profile details, if they need to.
+I plan to feature a checkout system that is as straightforward, reliable, and quick as I can manage. In essence, I'm aiming to
+ensure that the user is left with a positive emotional response. It is important to me to make sure that they <strong>want</strong> to
+come back again.</p>
+<p>However, due to time constraints, I aim to go live with the MVP (Minimum Viable Product). This basically means that 
+the project will contain the essential features that allow it to present and function well. There are other features
+that I would like to include, but I will not have the time, skill set, and resources to do so.</p>
 
 ### Surface
 I decided to go with the blue, white, and pink colour scheme because my research showed that seemed to be a happy medium between a colour-blindness friendly aesthetic and an eye-catching and dynamic design. Many sources agreed that a minimalistic design was best so I opted to keep the general layout clean, clear, uncluttered.<p>
