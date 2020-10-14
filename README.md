@@ -96,11 +96,20 @@ be saved.</p>
 They merely needed to serve as a base for me to extrapolate upon, so you may observe some  minor deviations in the final project.
 
 ### Surface
-I decided to go with the blue, white, and pink colour scheme because my research showed that seemed to be a happy medium between a colour-blindness friendly aesthetic and an eye-catching and dynamic design. Many sources agreed that a minimalistic design was best so I opted to keep the general layout clean, clear, uncluttered.<p>
-
-From a purely stylistic point of view, I myself do favour the combination of blue and white anyway, for its minimalism, modern feel, and timeless quality. However, I decided to add a pop of pink to evoke a sense of dynamism and creativity, as I find that one of the few failings of blue and white coupled together is that it can come across a little boring, repetitive, and uninspired at times.
-
-I must add that I was inititially going to go with a predominatly greyscale scheme because it is by far the most colour-blindness friendly aesthetic, however, that felt a little too bland for my personal taste. So, I eventually opted to go for a white, blue, and pink combination while still designing with colour-blindness in mind in the places that I could. This is why I added texure and animations to the skill bars because research shows it is much easier for colour-blind individual to make out things that are textured or moving on a screen.<p>
+<p><i><strong>What will the project look like? Colours, images, etc.</strong></i></p>
+<p>I believe that form must follow function. It is important to me to make sure that the overall look of the project 
+syncronizes well with the theme of minimalism. With that said, I don't plan on overloading the project with lots of colours and
+images. In fact, the only image in this project will be the image on the homepage.</p>
+<p>Regarding colour, I was thinking of adhering to a black and white palette in order to fully convey the
+site's focus on minimalism. However, I decided against that because I felt it necessary to include a small pop of colour
+just to add a modicum of dynamism to the aesthetic. So, I plan on making the navbar shade of green that is cool and
+unobtrusive, and I plan on making the footer pure black with peach social media handles within it. Everything else on the site
+will adhere to a black and white theme.</p>
+<p>I plan to include a respectable amount of white space in the project
+to create a sense of spaciousness and ensure that the pages don't appear too cluttered.</p>
+<p>I will also take some stylistic inspiration from online clothing stores like <a href="https://www.asos.com/">ASOS</a>
+and<a href="https://www.cosstores.com/en_eur/index.html">COS</a> in order to adhere to an industry standard look while 
+adding bits of personal flair. 
 
 ### Features
 <ul>
