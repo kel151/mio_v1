@@ -17,7 +17,7 @@ specifically to minimalist men's wear with a modern and cool twist.
  A live demo can be found [here](https://m-i-o.herokuapp.com/)
  
  Here is the responsiveness preview:
- ![Responsive View](assets/responsiveview.gif)
+ ![Responsive View](static/responsive_view/responsiveview.gif)
 
 ## UX
 ### User Stories
@@ -50,13 +50,10 @@ would be looking for an online clothing store that primarly stocks men's wear th
 stores in order to find numerous minimalistic and fashionable pieces, especially for men. But typically speaking, there really aren't many
 places that one can go to find a wide selection of minimalist men's wear. That is the issues I'm hoping to address with this project,
 and that is the gap in the market I'm hoping to capitalize upon.</p>
+<p>Due to time cont</p>
 
-### Scope
-The purpose of this undertaking is to display my skills and projects in a way that is quick, simple and intuitive. It is meant to serve as a portfolio, showcasing my professional journey and career trajectory.<p>
-  
-Having worked in the recuitment space, I understand that recruitrs and employers often don't have the time to sift through detailed resumés and portfolios. Additionally, being a marketing professional, I also understand that the attention span of the average buyer/user is growing shorter by the decade. Advertisements and promotions must be able to arrest attention and or convey a message within 2 seconds, lest they risk losing the onlooker forever.<p>
-
-Therefore, this portfolio will be slightly more narrow in scope than some others out there, and <strong>it will prioritise the more "at-a-glance" and "on-the-go" user.</strong>
+### Scope Plane
+<p><i></i></p>
 
 ### Surface
 I decided to go with the blue, white, and pink colour scheme because my research showed that seemed to be a happy medium between a colour-blindness friendly aesthetic and an eye-catching and dynamic design. Many sources agreed that a minimalistic design was best so I opted to keep the general layout clean, clear, uncluttered.<p>
