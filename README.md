@@ -345,7 +345,7 @@ pip3 freeze > requirements.txt
 ```
 2. Create a `Procfile` and inside it type:
 ```
-web: gunicorn whisky_shop.wsgi:application
+web: gunicorn mio.wsgi:application
 ```
 3. On [Heroku](https://heroku.com/) website you can now create your **new app**, assign a unique name (try to use a name as close as possible to the project name for consistency), choose the region the closest to you and click **Create app**.
 4. Go to **Resources** tab in Heroku, then in the **Add-ons** search bar look for **Heroku Postgres**, select **Hobby Dev — Free** and click **Provision*** button to add it to your project. (This is where  `dj-database-url` and `Psycopg` are required.)
@@ -403,7 +403,7 @@ appropriate and relevant parties.</a></p>
 <ul>
  <li>My mentor, Simen, for his help and advice.</li>
  <li>My second mentor, Brian Macharia, who took over while Simen went on his honeymoon. 
- <li>My friend and fellow member of the Code Institute Slack Community, SSebastien Denommee, for all of his advice, kindness, and encouragement. I would also
+ <li>My friend and fellow member of the Code Institute Slack Community, Sebastien Denommee, for all of his advice, kindness, and encouragement. I would also
  like to thank him for his help in consctructing my ReadMe. I used his ReadMe as a template in some parts.</li>
  <li>The Student Care team, particularly Mark McGann, for their constant support, encouragement, and check-in messages.</li>
  <li>The tutor team for their patience, tenacity, and perpetual willingness to help, no matter how late.</li>
