@@ -163,7 +163,7 @@ adding bits of personal flair.
   which will display a summary of said order in a box. Below said box, will be an option to bring to user back to view the full collection and continue their shopping.</li>
 </ul>
 
-## Features Left To Implement
+### Features Left To Implement
 <ul>
   <li>The option for the user to log in using their social media account.</li>
   <li>The option of next day delivery</li>
@@ -204,20 +204,64 @@ adding bits of personal flair.
 * [PostgreSQL](https://www.postgresql.org/) with Heroku
 
 ## Testing
-The first step of my testing began by using <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to deduce whether my project was indeed responsive and compatible across all devices, the results of which can be observed at the beginning of this readme in the responsiveness preview.
+<p>The first step of my testing began by using <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to deduce whether my project was indeed responsive and compatible across all devices, the results of which can be observed at the beginning of this readme in the responsiveness preview.</p>
 
-The second stage involved sharing the deployed link with a few colleagues and friends to double check whether it was actually responsive or not, and this is where I ran into a curious issue. It would seem that the particular shade of pink that I used may appear differently on different devices, and this will probably negatively impact visbility for effected users. Below you will a screenshot of what how the site appears to me and most users compared to another screenshot of how it appears to a select few.
+<p>The second step was making sure there were no major issues in DevTools.</p>
 
-This is what most users (myself included) see:
-![Colour Difference 1](assets/img/colourdiff1.PNG)
+<p>The third step involved sharing the deployed link with a few colleagues and friends to double check whether it was actually responsive or not, and they reported no problems.</p>
 
-This is what a small number of users may see:
-![Colour Difference 2](assets/img/colourdiff2.jpg)
+### Testing functionality
 
-This occurs regardless of using DevTools or sites like Am I Responsive. So, essentially, if the colour appears correctly for you, then it will do so no matter what medium you view it through. Unfortunately, the same is true vice versa. While I remain unsure what the exact cause of this is, it would appear that this is may be due to one's individual device settings. This issue does seem to be localised to the minority, meaning that for the average user the project should appear normally. But this finding has given me a note of improvement and points me towards something that I can work to make better in the future.
-
-The third step of my testing involved the utilization of [Code Verifier](https://validator.w3.org/), which yielded the following result:
-![Code Verifier Test](assets/img/cvtest.PNG)
+#### NavBar and Footer
+| Test        |  Action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+| Logo  | Click | The user is brought to the homepage | Passed 
+| My Account  |  Click     | Opens a dropdown menu with the option to login or register      | Passed
+| My Profile | Click | The user is brought to their profile page where they can see their order history and delivery details | Passed
+| Logout | Click | The user is brought to the sign-out page | Passed
+| Login | Click | Takes user to a page in which they must enter their username and password | Passed
+| Register | Click | The user is brought to the registration form where you are asked to enter your details | Passed
+| Product Management | Click | Admin users are brought to a page where they can add a new product without having to sign into the admin backend | Passed
+| Navbar      | Click  |  All three optins open a dropdown menu and redirect the user to the relevant pages | Passed
+| Social Media Handles | Click | The user is brought to the relevant social media pages | Passed
+#### Homepage
+| Test        |  Action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+| View Our Collection | Click | User is brought to a page that displays all items | Passed
+#### Collection Page
+| Test        |  Action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+| Sort Bar  | Click  |  User is presented with a dropdown menu that allows sort by various categories in ascending or descending order | Passed
+| Item Image   | Click | tUser is taken to a page with the details displayed | Passed
+| Edit & Delete | Click | Admin users are unabled with the option of editting or deleting the piece of clothing | Passed
+| Back To Top Arrow | Click | The user is brought to the top of the page | Passed
+#### Product Details Page
+| Test        |  Action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+| Product Image  | Click | The image is opened in a new tab | Passed
+| Quantity Selector | Click/Type | Select using the plus or minus buttons, or by typing in the quantity the user wants. The user is unable enter less than 1 or more than 99 | Passed
+| Edit/ Delete | click | If you are a registered user only. Take you to the edit page where you can edit all fields. Delete will delete the product | passed
+| back to the cellar | click | take you back to the all whisky page | passed 
+| add to bag | click | open a window with a secure checkout link | passed 
+| secure checkout link | click | take you to then shopping bag page | passed
+#### Shopping Bag
+| Test        |  action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+| quantity-forms | click/text | to adjust the quantity or removed all products from the bag | passed
+| back to the cellar | click | take you back to the all whisky page | passed
+| secure checkout | click | take you to the checkout form page | passed
+#### Checkout Form
+| Test        |  action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+| form fields | text | The fields will be populated if you are a returning users. Except the card fields | passed
+| save profile | checkbox | save all details to the profile for first time  users | passed
+| adjust bag | click | take you the shopping bag page for one last chance to change your bag content | passed
+| card field |text |  Enter the test card number 4242 4242 4242 4242 and any future expiring data, and any CSV. An error message wil; be trigger if you enter the wrong card details | passed
+| complete order | click | take you the checkout success page, it trigger a loading gif, and an email being send to both the user and then shop owner | passed
+#### Checkout success
+| Test        |  action    |  Expected Result                  |   Test Result
+|  --------   |  --------  | --------------------     |  ------------
+|check specials | click | take you to page that display all whiskies from the ** something specials ** link | passed
 
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
