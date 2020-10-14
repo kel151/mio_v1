@@ -43,7 +43,7 @@ from my profile.</li>
 </ul>
 
 ### Strategy Plane
-<p><i>What am I aiming to achieve with this project, and for whom?</i></p>
+<p><i><strong>What am I aiming to achieve with this project, and for whom?</strong></i></p>
 <p>The target audience for this project is anyone who is interested in minimalist men's fashion. Ideally, the target audience
 would be looking for an online clothing store that primarly stocks men's wear that is both minimalistic and stylish.</p>
 <p>My aim with this project is to provide a one-stop-shop for minimalist men's wear. Oftentimes, it is necessary to visit several
@@ -55,7 +55,7 @@ the project will contain the essential features that allow it to function. There
 that I would like to include, but I will not have the time, skill set, and resources to do so.</p>
 
 ### Scope Plane
-<p><i>What features, based upon the information from the strategy plane, do I want to include in this design?</i></p>
+<p><i><strong>What features, based upon the information from the strategy plane, do I want to include in this design?</strong></i></p>
 <p>In order to achieve the project aims discussed above I plan to ensure the site's visuals align with the overarching theme 
 of minimalism. I want to include a navbar from which the user can navigate to specific sections of the store i.e. viewing
 the full collection or just certain types of clothing like hats, jackets, etc. I plan to ensure the user's
@@ -64,7 +64,7 @@ to create an account so that they can view their order history and edit their pr
 I plan to feature a checkout system that is as straightforward, reliable, and quick as I can manage. In essence, I'm aiming to
 ensure that the user is left with a positive emotional response. It is important to me to make sure that they <strong>want</strong> to
 come back again.</p>
-<p>However, due to time constraints, I aim to go live with the MVP (Minimum Viable Product). This basically means that 
+<p>However, due to time constraints, I aim to go live with the <strong>MVP</strong> (Minimum Viable Product). This basically means that 
 the project will contain the essential features that allow it to present and function well. There are other features
 that I would like to include, but I will not have the time, skill set, and resources to do so.</p>
 
