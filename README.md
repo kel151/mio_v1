@@ -22,19 +22,23 @@ specifically to minimalist men's wear with a modern and cool twist.
 ## UX
 ### User Stories
 #### User:
-<p>As a user, I want to view and interact with a site that is aesthetically pleasing. I want to enjoy what the site looks like and I want to
-feel the desire to return to the site.</p>
-<p>As a user, I expect that all articles of clothing adhere to the promised style of minimalism and originality to varying degrees.</p>
-<p>As a user, I want to be able to easily, swiftly, and seamlessly locate and browse through the various articles of clothing.</p>
-<p>As a user, I expect to be able to view easily, swiftly, and seamlessly view product details such as size, price, etc.</p>
-<p>As a user, I expect to be able to buy clothing without much issue.</p>
-<p>As a user, I expect the site to be fully functional.</p>
+<ul>
+<li>As a user, I want to view and interact with a site that is aesthetically pleasing. I want to enjoy what the site looks like and I want to
+feel the desire to return to the site.</li>
+<li>As a user, I expect that all articles of clothing adhere to the promised style of minimalism and originality to varying degrees.</li>
+<li>As a user, I want to be able to easily, swiftly, and seamlessly locate and browse through the various articles of clothing.</li>
+<li>As a user, I expect to be able to view easily, swiftly, and seamlessly view product details such as size, price, etc.</li>
+<li>As a user, I expect to be able to buy clothing without much issue.</li>
+<li>As a user, I expect the site to be fully functional.</li>
+<ul>
 
 #### Site owner:
-<p>As the site owner, I expect to have a functioning admin interface, accessible only to the site's admin.</p>
-<p>As the site owner, I expect to be able to use the admin interface to add and remove clothing from the collection without much issue.</p>
-<p>As the site owner, I expect to be able to use the admin interface to edit each products details should I need to, such as its price, rating, etc.</p>
-<p>As the site owner, I expect to notified by email each time a user makes a purchase.</p>
+<ul>
+<li>As the site owner, I expect to have a functioning admin interface, accessible only to the site's admin.</li>
+<li>As the site owner, I expect to be able to use the admin interface to add and remove clothing from the collection without much issue.</li>
+<li>As the site owner, I expect to be able to use the admin interface to edit each products details should I need to, such as its price, rating, etc.</li>
+<li>As the site owner, I expect to notified by email each time a user makes a purchase.</li>
+</ul>
 
 ### Strategy
 <p><i>What am I aiming to achieve with this project, and for whom?</i></p>
