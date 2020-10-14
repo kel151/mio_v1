@@ -393,7 +393,7 @@ needs of my project.</p>
 
 ### Media
 <p>The images used in this project were taken from <a href="https://unsplash.com/">Unsplash</a>, an open license and resource that I greatly recommend</p>
-<p>However, regarding the homepage image, it was taken from<a href="https://hypebeast.com/2016/12/noboyushi-araki-g-dragon-dazed-winter-2016-peaceminusone-ambush-photoshoot">Hypebeast.com. All credits and rights belong to the
+<p>However, regarding the homepage image, it was taken from<a href="https://hypebeast.com/2016/12/noboyushi-araki-g-dragon-dazed-winter-2016-peaceminusone-ambush-photoshoot">Hypebeast.com</a>. All credits and rights belong to the
 appropriate and relevant parties.</a></p>
 
 ## Acknowledgements
