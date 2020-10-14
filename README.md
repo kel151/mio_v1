@@ -30,7 +30,7 @@ feel the desire to return to the site.</li>
 <li>As a user, I expect to be able to view easily, swiftly, and seamlessly view product details such as size, price, etc.</li>
 <li>As a user, I expect to be able to buy clothing without much issue.</li>
 <li>As a user, I expect the site to be fully functional.</li>
-<ul>
+</ul>
 
 #### Site owner:
 <ul>
