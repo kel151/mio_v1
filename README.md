@@ -414,4 +414,5 @@ appropriate and relevant parties.</a></p>
  project would not have been possible with Chris' guidance.</li>
 </ul>
 
-<strong>This is for educational use.</strong>
+## Disclaimer
+<p>This project and its contents are for educational purposes only.</p>
