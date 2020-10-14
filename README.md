@@ -386,32 +386,26 @@ In Heroku **Dashboards** select
 * Now you you run `git push` in the terminal, it will push to Github and Heroku.
 11. After your app has been successfully deployed you can view you project by clicking on **open app**
 
-## Credit
+## Credits
 ### Content
-All of text in the "About/A Little About Me..." section was written by me.
+<p>I used the Boutique-Ado tutorial provided by Chris of Code Institute as a point of reference throughout development, tailoring it to suit the specific
+needs of my project.</p>
 
 ### Media
-The images used in this project were taken from <a href="https://undraw.co/">Undraw</a>, an open license and highly customizable resource that I greatly recommend. 
-
-## Colour-blindness research sources:
-Tuchkov, I. 2018. http://www.garethbotha.com/color-blindness-usability-testing/. Accessed: November 5th 2019.<p>
-
-Bigman, A. 2012. <a href="https://99designs.ie/blog/tips/designers-need-to-understand-color-blindness/">Why all designers need to understand color blindness</a>. Accessed: November 5th 2019.
-
-Hiller, L. 2018. <a href="https://econsultancy.com/considering-colour-blindness-in-ux-design-with-five-examples/">Considering colour blindness in UX design (with five examples)</a>. Accessed: November 5th 2019.
-  
-Cravit, R. 2019. <a href="https://venngage.com/blog/color-blind-friendly-palette/">How to Use Color Blind Friendly Palettes to Make Your Charts Accessible</a>. Accessed: November 5th 2019.
-
-Botha, G. 2017. <a href="http://www.garethbotha.com/color-blindness-usability-testing/">Color Blindness in Usability Testing</a>. Accessed: November 5th 2019.
+<p>The images used in this project were taken from <a href="https://unsplash.com/">Unsplash</a>, an open license and resource that I greatly recommend</p>
+<p>However, regarding the homepage image, it was taken from<a href="https://hypebeast.com/2016/12/noboyushi-araki-g-dragon-dazed-winter-2016-peaceminusone-ambush-photoshoot">Hypebeast.com. All credits and rights belong to the
+appropriate and relevant parties.</a></p>
 
 ## Acknowledgements
 <ul>
- <li>My mentor, Aaron Sinnot, for all of his patience, advice, and recommendations.</li>
- <li>My friend and fellow member of the Code Institute Slack Community, Mia, for all of her advice, kindness, and encouragement.</li>
- <li>The Student Care team, particularly Claire Lally, for the constant support, encouragement, and check-in messages.</li>
- <li>Anthony O'Brien, a fellow member of the Code Institute Slack Community, for his patience, tenacity, and perpetual willingness to help, no matter how late.</li>
+ <li>My mentor, Simen, for his help and advice.</li>
+ <li>My second mentor, Brian Macharia, who took over while Simen went on his honeymoon. 
+ <li>My friend and fellow member of the Code Institute Slack Community, Sebastien, for all of his advice, kindness, and encouragement. I would also
+ like to thank him for his help in consctructing my ReadMe.</li>
+ <li>The Student Care team, particularly Mark McGann, for their constant support, encouragement, and check-in messages.</li>
+ <li>The tutor team, particularly Michael Park, for his patience, tenacity, and perpetual willingness to help, no matter how late.</li>
+ <li>Chris, whose Boutique Ado example served as a template and guide for me during this process, particularly at difficult times. This
+ project would not have been possible with Chris' guidance.</li>
 </ul>
-
-The inspiration for this project came from <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive">a portfolio by Haley Schafer</a>, which was used to expemplify what a high quality milestone 1 project could be.
 
 <strong>This is for educational use.</strong>
