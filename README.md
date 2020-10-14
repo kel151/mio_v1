@@ -213,7 +213,7 @@ adding bits of personal flair.
 
 ### Testing functionality
 
-#### NavBar and Footer
+#### Navbar and Footer
 | Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
 | Logo  | Click | The user is brought to the homepage | Passed 
@@ -245,24 +245,24 @@ adding bits of personal flair.
 | Keep Shopping | Click | User is brought back to collections page | Passed 
 | Add To Bag | Click | An order/checkout summary drops down from bag icon | Passed 
 | Secure Checkout Link | Click | The user is brought to the shopping bag page | Passed
-#### Shopping Bag
+#### Shopping Bag Page
 | Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
 | Quantity Selector | Click/Type | User can adjust item quantity or remove them | Passed
 | Keep Shopping | Click | User is brought back to Collections page | Passed
-| Secure Checkout | click | User is brought to the checkout page | Passed
-#### Checkout Form
+| Secure Checkout | Click | User is brought to the checkout page | Passed
+#### Checkout Form Page
 | Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
-| Form Fields | text | All fields, except the card fields, will be populated if user is a returning user | Passed
+| Form Fields | Text | All fields, except the card fields, will be populated if user is a returning user | Passed
 | Save Profile | Checkbox | Saves first time user details to their profile | Passed
 | Adjust bag | Click | Brings the user back to their shopping bag to make changes | Passed
 | Card Fields |Text |  Enter the test card number 4242 4242 4242 4242 and any future expiring data, and any CSV. Incompatible card details will trigger an error message | Passed
 | Complete Order | Click | Loading animation triggered, user is brought to order success page, and a confirmation email is sent to the user and site owner | Passed
-#### Checkout Success
+#### Checkout Success Page
 | Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
-| Continue Shopping? | click | User is redirected to the collection page to continue shopping | Passed
+| Continue Shopping? | Click | User is redirected to the collection page to continue shopping | Passed
 
 
 ### Code Validation
