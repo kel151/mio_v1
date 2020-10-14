@@ -17,6 +17,7 @@ specifically to minimalist men's wear with a modern and cool twist.
  A live demo can be found [here](https://m-i-o.herokuapp.com/)
  
  Here is the responsiveness preview in gif form. You should see a short clip of me testing responsiveness.
+ 
  ![Responsive View](static/responsive_view/responsiveview.gif)
 
 ## UX
@@ -108,7 +109,7 @@ will adhere to a black and white theme.</p>
 <p>I plan to include a respectable amount of white space in the project
 to create a sense of spaciousness and ensure that the pages don't appear too cluttered.</p>
 <p>I will also take some stylistic inspiration from online clothing stores like <a href="https://www.asos.com/">ASOS</a>
-and<a href="https://www.cosstores.com/en_eur/index.html">COS</a> in order to adhere to an industry standard look while 
+and <a href="https://www.cosstores.com/en_eur/index.html">COS</a> in order to adhere to an industry standard look while 
 adding bits of personal flair. 
 
 ## Features
@@ -170,7 +171,7 @@ adding bits of personal flair.
   <li>A "New In" section that displays items recently added to the stock.</li>
   <li>An "On Sale" section that displays items that are on sale.</li>
   <li>A "bookmarking" feature that allows the user to mark items they're interested in, but not willing or able 
-  to purchase at that particular moment. A list of their bookmarked items would be stored in their profile.<li>
+  to purchase at that particular moment. A list of their bookmarked items would be stored in their profile.</li>
 </ul>
 
 ## Technologies Used
@@ -290,7 +291,7 @@ The project is stored on **Github** and hosted on **Heroku**
 You will also need to create account with:
 * [Stripe](https://stripe.com/gb)
 * [AWS](https://aws.amazon.com/) for the [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html)
-* An email account of your choice. I used [gmail](https://mail.google.com/)
+* An email account of your choice. I used [Gmail](https://mail.google.com/)
 ### Directions
 1. You can clone this repository directly into you editor by pasting the following command into the terminal: https://github.com/kel151/mio_v1
 2. Or you can save a copy of this directory by clicking the green button " Clone or download" then "Download Zip" and after that extract the Zip file to your folder, change the directory to the directory file location you just created.
@@ -393,7 +394,7 @@ needs of my project.</p>
 
 ### Media
 <p>The images used in this project were taken from <a href="https://unsplash.com/">Unsplash</a>, an open license and resource that I greatly recommend</p>
-<p>However, regarding the homepage image, it was taken from<a href="https://hypebeast.com/2016/12/noboyushi-araki-g-dragon-dazed-winter-2016-peaceminusone-ambush-photoshoot">Hypebeast.com</a>. All credits and rights belong to the
+<p>However, regarding the homepage image, it was taken from <a href="https://hypebeast.com/2016/12/noboyushi-araki-g-dragon-dazed-winter-2016-peaceminusone-ambush-photoshoot">Hypebeast.com</a>. All credits and rights belong to the
 appropriate and relevant parties.</a></p>
 
 ## Acknowledgements
@@ -401,10 +402,11 @@ appropriate and relevant parties.</a></p>
  <li>My mentor, Simen, for his help and advice.</li>
  <li>My second mentor, Brian Macharia, who took over while Simen went on his honeymoon. 
  <li>My friend and fellow member of the Code Institute Slack Community, Sebastien, for all of his advice, kindness, and encouragement. I would also
- like to thank him for his help in consctructing my ReadMe.</li>
+ like to thank him for his help in consctructing my ReadMe. I used his ReadMe as a template in some parts.</li>
  <li>The Student Care team, particularly Mark McGann, for their constant support, encouragement, and check-in messages.</li>
  <li>The tutor team, particularly Michael Park, for his patience, tenacity, and perpetual willingness to help, no matter how late.</li>
- <li>Chris, whose Boutique Ado example served as a template and guide for me during this process, particularly at difficult times. This
+ <li>Chris, whose Boutique Ado example served as a template and guide for me during this process, particularly at difficult
+ and confusing periods during development. This
  project would not have been possible with Chris' guidance.</li>
 </ul>
 
