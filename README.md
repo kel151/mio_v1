@@ -272,7 +272,7 @@ adding bits of personal flair.
 <p>Warning messages are triggered if the user enters incorrect or incompatible usernames, passwords, emails, etc.</p>
 
 ## Bugs & Issues of Note 
-<p>I did encounter any serious bugs during devlopment. However, there were a few "line too long" errors in the code. I attempted
+<p>I didn't encounter any serious bugs during devlopment. However, there were a few "line too long" errors in the code. I attempted
 to amend them, but ended up breaking the site in the process. Due to limitied time, I opted to leave them as is due to the fact that
 they do not impact the fucntionality of the site.</p>
 <p>Also, one of the individuals that helped my test the project reported that it took quite some time for his confirmation email
@@ -401,10 +401,12 @@ appropriate and relevant parties.</a></p>
 <ul>
  <li>My mentor, Simen, for his help and advice.</li>
  <li>My second mentor, Brian Macharia, who took over while Simen went on his honeymoon. 
- <li>My friend and fellow member of the Code Institute Slack Community, Sebastien, for all of his advice, kindness, and encouragement. I would also
+ <li>My friend and fellow member of the Code Institute Slack Community, SSebastien Denommee, for all of his advice, kindness, and encouragement. I would also
  like to thank him for his help in consctructing my ReadMe. I used his ReadMe as a template in some parts.</li>
  <li>The Student Care team, particularly Mark McGann, for their constant support, encouragement, and check-in messages.</li>
- <li>The tutor team, particularly Michael Park, for his patience, tenacity, and perpetual willingness to help, no matter how late.</li>
+ <li>The tutor team for their patience, tenacity, and perpetual willingness to help, no matter how late.</li>
+ <li>Michael from the tutoring team who stayed up with me many a late night to help. I wouldn't know as much as I do now without his patient and effective guidance. This project
+ would not have been possible without him.</li>
  <li>Chris, whose Boutique Ado example served as a template and guide for me during this process, particularly at difficult
  and confusing periods during development. This
  project would not have been possible with Chris' guidance.</li>
