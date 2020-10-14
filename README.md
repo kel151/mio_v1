@@ -112,12 +112,65 @@ and<a href="https://www.cosstores.com/en_eur/index.html">COS</a> in order to adh
 adding bits of personal flair. 
 
 ### Features
+## Features Implemented
+# Website-Wide Features (features on all pages):
 <ul>
-  <li>I opted to use a single page format to make navigation much simpler and intuitive, meaning the user doesn't need to click back and forth between pages.</li>
-  <li>The default setting for the navbar seemed to create a very stark and jarring transition to whatever you clicked on. It wasn't a very smooth effect. So, I opted for a smooth scrolling effect instead of just appearing on whatever navbar item you click on, and this made for a much nicer, more fluid experience.</li>
-  <li>I made the skill progress bars textured and animated because my research showed that it is often easier for colour-blind individuals to make out things that are textured and or moving on a screen.</li>
- <li>I created the footer to mirror the navbar in design, being black. This made for a very balanced and symmetrical visual experience when both were present and visible on the screen.</li>
- <li>I included social media links in the footer and added a small rotation and colour changing animation to help enhance their visibility and presence.</li>
+  <li>A fixed header and navbar that stays at the top of the screen no matter how far down the user
+  scrolls. This ensures that they can always access the navbar without having to scroll up.</li>
+  <li>The header contains a search bar with which the user can use to search for specific items on the site. contains a homepage link in the form of the project name "MIO" in the top left. Users can use this
+  to navigate back to the homepage. But this does not appear on the mobile version of the site. Instead, they will
+  find "Home" listed in the options from the burger icon<li>
+  <li>The user can use the navbar to navigate to different sections of the site, such as the full collections page or
+  to specific groups of items such as trainers, hats, etc. They can also filter items by price, category, etc. 
+  The user can also utilize the navbar to create an profile or view
+  their bag.</li>
+</ul>
+
+# Homepage Features:
+<ul>
+  <li>The homepage contains a link to the full collection of clothing.</li>
+  <li>The footer contains social media handles which can direct the user to the relevant social media pages.</li>
+</ul>
+
+# Collections Page Features (features on the page that displays all available items):
+<ul>
+  <li>On the right, above the available items, the user can sort through and organize them price (low to hight or vice versa),
+  by category (A-Z or vice versa), by rating (low to high or vice versa) or by name (A-Z or vice versa).</li>
+  <li>On the left, the user can see the exact amount of available products.</li>
+  <li>The user can select an item and view its details, such as price, description, etc. They can choose the quauntity
+  they want to buy, and they can either add the item to their bag or return back to the products page.</li>
+  <li>Adding an item to user's bag, will prompt a little order summar to appear in the top right of the screen below
+  the bag icon. It will display the item added, a link to the checkout, and notify the user how much more they need to
+  spend to get free delivery, if anything.
+  <li>In the product details page, admin users can edit or remove items.</li>
+  <li>At the bottom right of the screen is an arrow icon that always navigates the user to the top of the page,
+  so that they don't need to scroll.</li>
+</ul>
+
+# Shopping Bag Features:
+<ul>
+  <li>The user can see a full summary of their order.</li>
+  <li>They can choose to increase or decrease the number of the item, or remove it entirely.</li>
+  <li>From here, the user can navigate to complete their order or return back to view items.</li>
+</ul>
+
+# Checkout Features:
+<ul>
+  <li>Here, the user can add and augment their delivery and payment details.</li>
+  <li>A full summary of their order is displayed here, along with the grand total.</li>
+  <li>The will have the option to proceed with the purchase or return to adjust their bag.</li>
+  <li>Going through with the order will trigger an order confirmtion email to the user and an order confirmation box, 
+  which will display a summary of said order in a box. Below said box, will be an option to bring to user back to view the full collection and continue their shopping.</li>
+</ul>
+
+## Features Left To Implemented
+<ul>
+  <li>The option for the user to log in using their social media account.</li>
+  <li>The option of next day delivery</li>
+  <li>A "New In" section that displays items recently added to the stock.</li>
+  <li>An "On Sale" section that displays items that are on sale.</li>
+  <li>A "bookmarking" feature that allows the user to mark items they're interested in, but not willing or able 
+  to purchase at that particular moment. A list of their bookmarked items would be stored in their profile.<li>
 </ul>
 
 ### Features left to implement
