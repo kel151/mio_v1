@@ -45,10 +45,11 @@ from my profile.</li>
 ### Strategy Plane
 <p><i>What am I aiming to achieve with this project, and for whom?</i></p>
 <p>The target audience for this project is anyone who is interested in minimalist men's fashion. Ideally, the target audience
-would be looking for an online clothing store that primarly stocks men's wear that is both minimalist and stylish.</p>
+would be looking for an online clothing store that primarly stocks men's wear that is both minimalistic and stylish.</p>
 <p>My aim with this project is to provide a one-stop-shop for minimalist men's wear. Oftentimes, it is necessary to visit several
 stores in order to find numerous minimalistic and fashionable pieces, especially for men. But typically speaking, there really aren't many
-places that one can go to find a wide selection of minimalist men's wear.</p>
+places that one can go to find a wide selection of minimalist men's wear. That is the issues I'm hoping to address with this project,
+and that is the gap in the market I'm hoping to capitalize upon.</p>
 
 ### Scope
 The purpose of this undertaking is to display my skills and projects in a way that is quick, simple and intuitive. It is meant to serve as a portfolio, showcasing my professional journey and career trajectory.<p>
