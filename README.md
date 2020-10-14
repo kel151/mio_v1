@@ -68,24 +68,39 @@ come back again.</p>
 the project will contain the essential features that allow it to present and function well. There are other features
 that I would like to include, but I will not have the time, skill set, and resources to do so.</p>
 
+### Structure
+<p><i><strong>How is everything structured? How is it logically grouped together? The features, the elements, the data, etc.</strong></i></p>
+<p>In order of appearance, the homepage will be separated into three parts. The top will house the homepage link, the searchbar, and the profile and bag links.
+Below that will be the navbar, which will contain links to various parts of the site i.e. a link to the full clothing collection and links
+to specific types of clothing like trousers, shirts, etc. The middle portion of the homepage will contain the homepage image and a direct link to the
+site's full collection. At the bottom of the homepage will be the footer, which will contain social media handles.</p>
+<p>Next, will be the poducts page, which will be the page that the full clothing colelction will be displayed for the user to browse through.
+From there, the user can select an item and view its details, such as its description and available sizes. They can then choose to
+return to the collection or buy the item. At which point, they will be directed their bag where they can view their order summary.</p>
+<p>They can then move on to the checkout, where they'll fill in their delivery details and payment information. Then the order will be placed, and they
+will be given an option to go back to the full collection to browse and potentially purchase more.</p>
+<p>From the homepage, they will also have the option to register and make an account, so that purchasing in the future will be easier because their details will 
+be saved.</p>
+
+### Skeleton
+ <ul>
+    <li>Homepage</li>
+    <li>Full clothing collection page</li>
+    <li>Product details page for each piece of clothing selected</li>
+    <li>Checkout page</li>
+    <li>Order confirmation page</li>
+    <li>Registration page</li>
+</ul> 
+
+[Here](wireframes) is a list of the wireframes I developed during the inital mock-up. They are quite self-explanatory and rudimentary, but they didn't need to be overly compelx. 
+They merely needed to serve as a base for me to extrapolate upon, so you may observe some  minor deviations in the final project.
+
 ### Surface
 I decided to go with the blue, white, and pink colour scheme because my research showed that seemed to be a happy medium between a colour-blindness friendly aesthetic and an eye-catching and dynamic design. Many sources agreed that a minimalistic design was best so I opted to keep the general layout clean, clear, uncluttered.<p>
 
 From a purely stylistic point of view, I myself do favour the combination of blue and white anyway, for its minimalism, modern feel, and timeless quality. However, I decided to add a pop of pink to evoke a sense of dynamism and creativity, as I find that one of the few failings of blue and white coupled together is that it can come across a little boring, repetitive, and uninspired at times.
 
 I must add that I was inititially going to go with a predominatly greyscale scheme because it is by far the most colour-blindness friendly aesthetic, however, that felt a little too bland for my personal taste. So, I eventually opted to go for a white, blue, and pink combination while still designing with colour-blindness in mind in the places that I could. This is why I added texure and animations to the skill bars because research shows it is much easier for colour-blind individual to make out things that are textured or moving on a screen.<p>
- 
-### Skeleton
- <ul>
-    <li>Landing Page</li>
-    <li>About</li>
-    <li>Skills</li>
-    <li>Projects</li>
-    <li>Contact</li>
-</ul>
-
-### Structure
-[Here](wireframes) are a list of the wireframes I developed during the inital mock-up. They are quite self-explanatory and rudimentary, but they didn't need to be overly compelx. They merely needed to serve as a base for me to extrapolate upon. Two of the wireframes had to be redone because I was having trouble with creating responsive speechbubbles, so I opted for basic rectangles instead because they are far easier to make responsive. This is in reference to the about page and the projects page, so you will see two wireframes for each of those. 
 
 ### Features
 <ul>
