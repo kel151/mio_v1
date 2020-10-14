@@ -233,35 +233,35 @@ adding bits of personal flair.
 |  --------   |  --------  | --------------------     |  ------------
 | Sort Bar  | Click  |  User is presented with a dropdown menu that allows sort by various categories in ascending or descending order | Passed
 | Item Image   | Click | tUser is taken to a page with the details displayed | Passed
-| Edit & Delete | Click | Admin users are unabled with the option of editting or deleting the piece of clothing | Passed
+| Edit & Delete | Click | Admin users are unabled with the option of editting or deleting a piece of clothing | Passed
 | Back To Top Arrow | Click | The user is brought to the top of the page | Passed
 #### Product Details Page
 | Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
 | Product Image  | Click | The image is opened in a new tab | Passed
 | Quantity Selector | Click/Type | Select using the plus or minus buttons, or by typing in the quantity the user wants. The user is unable enter less than 1 or more than 99 | Passed
-| Edit/ Delete | click | If you are a registered user only. Take you to the edit page where you can edit all fields. Delete will delete the product | passed
-| back to the cellar | click | take you back to the all whisky page | passed 
-| add to bag | click | open a window with a secure checkout link | passed 
-| secure checkout link | click | take you to then shopping bag page | passed
+| Edit & Delete | Click | Admin users are unabled with the option of editting or deleting a piece of clothing | Passed
+| Keep Shopping | Click | User is brought back to collections page | Passed 
+| Add To Bag | Click | An order/checkout summary drops down from bag icon | Passed 
+| Secure Checkout Link | Click | The user is brought to the shopping bag page | Passed
 #### Shopping Bag
-| Test        |  action    |  Expected Result                  |   Test Result
+| Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
-| quantity-forms | click/text | to adjust the quantity or removed all products from the bag | passed
-| back to the cellar | click | take you back to the all whisky page | passed
-| secure checkout | click | take you to the checkout form page | passed
+| Quantity Selector | Click/Type | User can adjust item quantity or remove them | Passed
+| Keep Shopping | Click | User is brought back to Collections page | Passed
+| Secure Checkout | click | User is brought to the checkout page | Passed
 #### Checkout Form
-| Test        |  action    |  Expected Result                  |   Test Result
+| Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
-| form fields | text | The fields will be populated if you are a returning users. Except the card fields | passed
-| save profile | checkbox | save all details to the profile for first time  users | passed
-| adjust bag | click | take you the shopping bag page for one last chance to change your bag content | passed
-| card field |text |  Enter the test card number 4242 4242 4242 4242 and any future expiring data, and any CSV. An error message wil; be trigger if you enter the wrong card details | passed
-| complete order | click | take you the checkout success page, it trigger a loading gif, and an email being send to both the user and then shop owner | passed
-#### Checkout success
-| Test        |  action    |  Expected Result                  |   Test Result
+| Form Fields | text | All fields, except the card fields, will be populated if user is a returning user | Passed
+| Save Profile | Checkbox | Saves first time user details to their profile | Passed
+| Adjust bag | Click | Brings the user back to their shopping bag to make changes | Passed
+| Card Fields |Text |  Enter the test card number 4242 4242 4242 4242 and any future expiring data, and any CSV. Incompatible card details will trigger an error message | Passed
+| Complete Order | Click | Loading animation triggered, user is brought to order success page, and a confirmation email is sent to the user and site owner | Passed
+#### Checkout Success
+| Test        |  Action    |  Expected Result                  |   Test Result
 |  --------   |  --------  | --------------------     |  ------------
-|check specials | click | take you to page that display all whiskies from the ** something specials ** link | passed
+| Continue Shopping? | click | User is redirected to the collection page to continue shopping | Passed
 
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
