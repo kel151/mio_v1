@@ -111,7 +111,7 @@ to create a sense of spaciousness and ensure that the pages don't appear too clu
 and<a href="https://www.cosstores.com/en_eur/index.html">COS</a> in order to adhere to an industry standard look while 
 adding bits of personal flair. 
 
-### Features
+# Features
 ## Features Implemented
 #### Website-Wide Features (features on all pages):
 <ul>
