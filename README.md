@@ -266,7 +266,7 @@ adding bits of personal flair.
 
 
 ### Code Validation
-<p>For code validation, I used W3C and PEP8. No major issues were encountered during this of testing.</p>
+<p>For code validation, I used W3C and PEP8. No major issues were encountered during this stage of testing.</p>
 
 ### Defensive Design
 <p>Warning messages are triggered if the user enters incorrect or incompatible usernames, passwords, emails, etc.</p>
