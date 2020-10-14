@@ -26,13 +26,15 @@ specifically to minimalist men's wear with a modern and cool twist.
 <li>As a user, I want to view and interact with a site that is aesthetically pleasing. I want to enjoy what the site looks like and I want to
 feel the desire to return to the site.</li>
 <li>As a user, I expect that all articles of clothing adhere to the promised style of minimalism and originality to varying degrees.</li>
-<li>As a user, I want to be able to easily, swiftly, and seamlessly locate and browse through the various articles of clothing.</li>
+<li>As a user, I expect to be able to make an profile and add, edit, and remove my profile details. I also expect to be able to view my order history
+from my profile.</li>
+<li>As a user, I expect to be able to easily, swiftly, and seamlessly locate and browse through the various articles of clothing.</li>
 <li>As a user, I expect to be able to view easily, swiftly, and seamlessly view product details such as size, price, etc.</li>
 <li>As a user, I expect to be able to buy clothing without much issue.</li>
 <li>As a user, I expect the site to be fully functional.</li>
 </ul>
 
-#### Site owner:
+#### Site Owner:
 <ul>
 <li>As the site owner, I expect to have a functioning admin interface, accessible only to the site's admin.</li>
 <li>As the site owner, I expect to be able to use the admin interface to add and remove clothing from the collection without much issue.</li>
