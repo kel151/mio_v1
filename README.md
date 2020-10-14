@@ -6,12 +6,12 @@ For my final milestone project, I have chosen to develop an online clothing stor
 The inspiration for this project comes for my passion for fashion, particularly minimalist and original pieces. Online clothes shopping
 is becoming increasingly commonplace for many reason, convenience being one of them. Many entities have taken advantage of this demand
 and developed very popular and successful online stores. Some of these include <a href="https://www.prettylittlething.ie/">PrettyLittleThing</a>,
-<a href="https://ie.boohoo.com/">Boohoo</a>, and <a href="https://www.asos.com/">ASOS</a>, and <a href="https://www.cosstores.com/en_eur/index.html">COS</a>.
-ASOS and COS are among my favourite onlines clothing stores, and I have taken a significant amount of inspiration from them. 
+<a href="https://ie.boohoo.com/">Boohoo</a>, <a href="https://www.asos.com/">ASOS</a>, and <a href="https://www.cosstores.com/en_eur/index.html">COS</a>.
+ASOS and COS are among my favourite online clothing stores, and I have taken a significant amount of inspiration from them. 
 
 There are indeed many online clothing stores but, with the exception of COS, few of them specialize in men's minimalist pieces, so 
-I believe there is room for more. So, I have taken it upon myseelf to use this project as an opportunity to develop a site that tailors
-specifically to minimalist men's wear with a modern and youthful twist. 
+I believe there is room in the market for more. So, I have taken it upon myseelf to use this project as an opportunity to develop a site that tailors
+specifically to minimalist men's wear with a modern and cool twist. 
 
 ## Demo 
  A live demo can be found [here](https://m-i-o.herokuapp.com/)
@@ -21,17 +21,24 @@ specifically to minimalist men's wear with a modern and youthful twist.
 
 ## UX
 ### User Stories
-As an employer, I want to be able to easily, swiftly, and seamlessly find a list of Kelvin’s skills and his proficiency in each one.<p>
-As a recruiter, I want to be able to easily, swiftly, and seamlessly view all of Kelvin’s software development and or marketing projects, both past and present.<p>
-As a member of the colour-blind community, I want to be able to clearly view the information on this website without any serious difficulties brought about by my vision.<p>
+#### User
+As a user, I want to view and interact with a site that is aesthetically pleasing. I want to enjoy what the site looks like and I want to
+feel the desire to return to the site.
+As a user, I expect that all articles of clothing adhere to the promised style of minimalism and originality to varying degrees.
+As a user, I want to be able to easily, swiftly, and seamlessly locate and browse through the various articles of clothing.
+As a user, I expect to be able to view easily, swiftly, and seamlessly view product details such as size, price, etc.
+As a user, I expect to be able to buy clothing without much issue. 
+As a user, I expect the site to be fully functional.
+
+#### Site owner
+As the site owner, I expect to have a functioning admin interface, accessible only to the site's admin.
+As the site owner, I expect to be able to use the admin interface to add and remove clothing from the collection without much issue.
+As the site owner, I expect to be able to use the admin interface to edit each products details should I need to, such as its price, rating, etc.
+As the site owner, I expect to notified by email each time a user makes a purchase.
 
 ### Strategy
-My goal was to build a portfolio that allows the user to find and view the information they want in as little steps as possible (across all devices) without compromising aesthetic appeal.<p>
-It was important to me to design a colour-blindness friendly UX design. This is because, in all my reading about UX/UI, I did not come across many UX/UI designers that made it a point to accommodate the needs of people who can’t view the world like everyone else. In fact, Ivan Tuchkov highlighted this very point in an article, in which he reminds UX designers that:<p>
-<i>“People with regular vision and people with protanopia see the same image. In the eyes of colorblind, the flower and the background are almost in the same color. And if we talk about user interfaces, such perception leads to a bunch of problems: text becomes unreadable, call-to-action buttons inconspicuous, etc.”</i> (Tuchkov, 2018)<p>
-Tuchkov goes on to talk about how this issue can not only appear extremely discriminatory, but can also hurt the client’s aims:<p>
-<i>“Every type of color blindness causes inconvenience; this carries over to user experience. At worst, colorblind people cannot use a product at all. It’ll upset a lot of users and a business will lose potential clients too.”</i> (Tuchkov, 2018)<p>
-So, in this milestone project, I have taken upon myself the additional challenge of designing with colour-blindness in mind wherever I can.
+<p><i>What am I aiming to achieve with this project, and for whom?</i></p>
+<p></p>
 
 ### Scope
 The purpose of this undertaking is to display my skills and projects in a way that is quick, simple and intuitive. It is meant to serve as a portfolio, showcasing my professional journey and career trajectory.<p>
