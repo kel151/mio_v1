@@ -411,8 +411,8 @@ appropriate and relevant parties.</a></p>
  <li>Michael from the tutoring team who stayed up with me many a late night to help. I wouldn't know as much as I do now without his patient and effective guidance. This project
  would not have been possible without him.</li>
  <li>Chris, whose Boutique Ado example served as a template and guide for me during this process, particularly at difficult
- and confusing periods during development. This
- project would not have been possible with Chris' guidance.</li>
+ and confusing periods during development. Some of the code has been augmented to
+ suit my needs for this project, and some has been left untouched. This project would not have been possible with Chris' guidance.</li>
 </ul>
 
 ## Disclaimer
