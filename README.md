@@ -270,6 +270,8 @@ adding bits of personal flair.
 
 ### Defensive Design
 <p>Warning messages are triggered if the user enters incorrect or incompatible usernames, passwords, emails, etc.</p>
+<p>I have also ensured that orders will not be processed without a price or an order notification
+being sent to admin.</p>
 
 ## Bugs & Issues of Note 
 <p>I didn't encounter any serious bugs during devlopment. However, there were a few "line too long" errors in the code. I attempted
