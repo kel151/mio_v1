@@ -263,6 +263,13 @@ adding bits of personal flair.
 |  --------   |  --------  | --------------------     |  ------------
 | Continue Shopping? | click | User is redirected to the collection page to continue shopping | Passed
 
+
+### Code Validation
+* For code validation, I used W3C and PEP8. No major issues were encountered during this of testing.
+
+### Defensive Design
+* Warning messages are triggered if the user enters incorrect or incompatible usernames, passwords, emails, etc.
+
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
 
