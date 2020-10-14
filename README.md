@@ -111,7 +111,7 @@ to create a sense of spaciousness and ensure that the pages don't appear too clu
 and<a href="https://www.cosstores.com/en_eur/index.html">COS</a> in order to adhere to an industry standard look while 
 adding bits of personal flair. 
 
-# Features
+## Features
 ## Features Implemented
 #### Website-Wide Features (features on all pages):
 <ul>
@@ -163,7 +163,7 @@ adding bits of personal flair.
   which will display a summary of said order in a box. Below said box, will be an option to bring to user back to view the full collection and continue their shopping.</li>
 </ul>
 
-## Features Left To Implemented
+## Features Left To Implement
 <ul>
   <li>The option for the user to log in using their social media account.</li>
   <li>The option of next day delivery</li>
@@ -174,28 +174,34 @@ adding bits of personal flair.
 </ul>
 
 ## Technologies Used
-<ul>
-    <li><a href="https://code.visualstudio.com/">Visual Code Studio</a> - code editor used for this project.<p></li>
-    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a> - to create the structure of the project and define the "skeleton", so to     speak.<p></li>
-    <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a> - to design and style the project, adding the "flesh to       the skeleton", so to speak<p></li>
-    <li><a href="https://getbootstrap.com/">Bootstrap</a> - used as a framework to make design faster and easier.<p></li>
-    <li><a href="https://git-scm.com/">Git</a> - used for version control.<p></li>
-    <li><a href="https://fontawesome.com/">Font Awesome</a> - used for social media icons.<p></li>
-    <li><a href="https://htmlformatter.com//">HTML Formatter</a> - used to beautify html.<p></li>
-    <li><a href="https://www.cleancss.com/css-beautify/">CSS Formatter</a> - used to beautify css.<p></li>
-    <li><a href="http://ami.responsivedesign.is/">Am I Responsive?</a> - used to test responsiveness.<p></li>
-    <li><a href="https://www.javascript.com/">JavaScript</a> - used with Bootstrap.<p></li>
-    <li><a href="https://jquery.com/">JQuery</a> - used to support Java Script.<p></li>
-</ul>
-  
-### Additional resources and tools
-<ul>
-  <li><a href="https://www.w3schools.com/">W3 Schools</a><p></li>
-  <li><a href="https://stackoverflow.com/">Stack Overflow</a><p></li>
-  <li><a href="https://css-tricks.com/">CSS-Tricks</a><p></li></li>
-  <li><a href="https://github.com/">GitHub</a><p></li>
-  <li><a href="https://www.youtube.com/">Youtube</a> - used for various tutorials. I find that I am a visual learner i.e. I learn better by watching others do, so I used YouTube tutorials for help pertaining to certain things I find tricky, such as the <a href="https://www.youtube.com/watch?v=23bpce-5s8I">nav bar</a> and the <a href="https://www.youtube.com/watch?v=woVuUbDOeMk&t=5s)">social media links</a><p></li> 
-</ul>
+### Languages
+* [HTML5](https://www.w3schools.com/html/default.asp)
+* [CSS3](https://www.w3schools.com/css/default.asp)
+* [Javascript](https://www.w3schools.com/js/default.asp)
+* [Python3](https://www.w3schools.com/python/default.asp)
+* [Jinja](https://jinja.palletsprojects.com/en/2.11.x/templates/)
+### Libraries and Framework
+* [Django](https://docs.djangoproject.com/en/3.1/)
+* [Bootstrap](https://getbootstrap.com/)
+* [FontAwesome](https://fontawesome.com/)
+* [Favicon](https://favicon.io/)
+* [Google Fonts](https://fonts.google.com/)
+* [JQuery](https://api.jquery.com/)
+* [Gunicorn](https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/gunicorn/)
+* [Psycopg2](https://pypi.org/project/psycopg2/)
+* [Stripe](https://stripe.com/gb)
+* [Crispy Form](https://django-crispy-forms.readthedocs.io/en/latest/)
+### Tools
+* [Gitpod](https://www.gitpod.io/)
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
+* [Pip](https://pip.pypa.io/en/stable/)
+* [Heroku](https://heroku.com/)
+* [AWS S3 Bucket](https://aws.amazon.com/)
+* [Boto3](https://boto3.amazonaws.com/)
+### Databases
+* [Sqlite3](https://www.sqlite.org/index.html) with Django
+* [PostgreSQL](https://www.postgresql.org/) with Heroku
 
 ## Testing
 The first step of my testing began by using <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to deduce whether my project was indeed responsive and compatible across all devices, the results of which can be observed at the beginning of this readme in the responsiveness preview.
